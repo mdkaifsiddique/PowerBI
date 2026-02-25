@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY25SU12",
+      "reportVersionAtImport": {
+        "visual": "2.5.0",
+        "report": "3.1.0",
+        "page": "2.3.0"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY25SU12",
+          "path": "BaseThemes/CY25SU12.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "bc3758323422404011.avif",
+          "path": "bc3758323422404011.avif",
+          "type": "Image"
+        },
+        {
+          "name": "Untitled_design-removebg-previ5839597641174965.png",
+          "path": "Untitled_design-removebg-previ5839597641174965.png",
+          "type": "Image"
+        },
+        {
+          "name": "Average_230269461320973134.png",
+          "path": "Average_230269461320973134.png",
+          "type": "Image"
+        },
+        {
+          "name": "Average_231965879505115946.png",
+          "path": "Average_231965879505115946.png",
+          "type": "Image"
+        },
+        {
+          "name": "Quanity7849884478884943.png",
+          "path": "Quanity7849884478884943.png",
+          "type": "Image"
+        },
+        {
+          "name": "Transactions29512995608276515.png",
+          "path": "Transactions29512995608276515.png",
+          "type": "Image"
+        },
+        {
+          "name": "Average5637799165226743.png",
+          "path": "Average5637799165226743.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
